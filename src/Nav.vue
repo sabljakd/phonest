@@ -2,7 +2,6 @@
 <template>
 
   <div id="app">
-
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
     <div id="nav">
       <div class="logo">

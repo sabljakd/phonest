@@ -9,28 +9,26 @@
      <!-- <img src="../assets/phone.png" alt="Home Photo"> -->
     </div>
       <div class="first">
-        <div class="one">
+        <div class="one-first">
         <a>ODLIČNA USLUGA</a><br>
         </div>
-        <div class="two">
+        <div class="two-first">
         <h2>Ne znaš koji mobitel odabrati? Mi smo tu da ti pomognemo.</h2>
         </div>
-        <div class="three">
+        <div class="three-first">
         <a>Jednostavno je, u par klikova odaberi željene specifikacije, klikni potvrdi i <b>Voilà</b> pronašao si željene uređaje!</a>
         </div>
-        <div class="four">
         
-        </div>
   </div>
   </div>
 
   <div class="middle">
-    <div class="left"><a>ZNAČAJKE</a></div>
+    <div class="left-middle"><a>ZNAČAJKE</a></div>
   </div>
 
   <div class="bottom">
-    <div class="one">
-      <div class="left">
+    <div class="one-bottom">
+      <div class="left-one">
         <h3>PRAĆENJE TRENDOVA</h3>
         <a>Proces kupovanja može se podijeliti u više faza, 
         od planiranja kupnje preko odabira trgovine, odabira proizvoda, plaćanja, 
@@ -38,26 +36,26 @@
         a počinje puno prije odlaska u trgovinu.</a>
 
       </div>
-      <div class="right">
+      <div class="right-one">
       </div>
       </div>
-    <div class="two">      
-      <div class="left"></div>
-      <div class="right"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    <div class="two-bottom">      
+      <div class="left-two"></div>
+      <div class="right-two"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
       Rem placeat vitae repellendus vero dolorem, modi laborum quae explicabo 
       architecto dicta necessitatibus in sit quos accusamus,
        quia vel, dolor consequuntur? Velit!</a></div>
       </div>
-    <div class="three">
-      <div class="left"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    <div class="three-bottom">
+      <div class="left-three"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
       Rem placeat vitae repellendus vero dolorem, modi laborum quae explicabo 
       architecto dicta necessitatibus in sit quos accusamus,
        quia vel, dolor consequuntur? Velit!</a></div>
-      <div class="right"></div>
+      <div class="right-three"></div>
       </div>
-    <div class="four">
-      <div class="left"></div>
-      <div class="right"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    <div class="four-bottom">
+      <div class="left-four"></div>
+      <div class="right-four"><a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
       Rem placeat vitae repellendus vero dolorem, modi laborum quae explicabo 
       architecto dicta necessitatibus in sit quos accusamus,
        quia vel, dolor consequuntur? Velit!</a></div>
@@ -80,9 +78,6 @@
   grid-template-rows: 72vh 5vh 170vh;
   font-family: 'Quicksand', sans-serif;
 
-  
-
-
 .first{
   
   margin: 100px;
@@ -99,7 +94,7 @@
 .middle{
   display: grid;
   grid-template-columns: 50% 50%;
-.left{
+.left-middle{
     margin-left: 100px;
   a{
     color:#232A34;
@@ -111,24 +106,20 @@
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: 42vh 40vh 40vh 40vh;
-      background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgNDAsNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0iIzJhNDM2NSI+PC9yZWN0PiA8cGF0aCBmaWxsPSIjMWEyMDJjIiBkPSJNLTEgMjAgaDIgdjEgaC0yIHpNMzkgMjAgaDIgdjEgaC0yIHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZWNjOTRiIiBkPSJNMTkuNSAyMCBoMSB2MSBoLTEgek01OS41IDIwIGgxIHYxIGgtMSB6Ij48L3BhdGg+PC9wYXR0ZXJuPiAgPC9kZWZzPiA8cmVjdCBmaWxsPSJ1cmwoI3BhdHRlcm4pIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIj48L3JlY3Q+PC9zdmc+");
-
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   
-    .one{
+    .one-bottom{
       background-color:#fbfbfbad;
-      border-radius: 25px;
       margin: 20px 500px 20px 500px;
       display: grid;
       grid-template-columns: 50% 50%;
-      .right{
+      .right-one{
       background-image: url("../assets/info.png");
       background-repeat: no-repeat;
       background-position: center;
-      border-top-right-radius: 25px;
-      border-bottom-right-radius: 25px;
       background-size: cover;
       }
-      .left{
+      .left-one{
       padding: 20px;
       text-align: center;
       h3{
@@ -139,60 +130,51 @@
       
     }
 
-    .two{
+    .two-bottom{
       background-color:#fbfbfbad;
-      border-radius: 25px;
       margin: 20px 500px 20px 500px;
       display: grid;
       grid-template-columns: 50% 50%;
-      .left{
+      .left-two{
       background-image: url("../assets/love.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      border-top-left-radius: 25px;
-      border-bottom-left-radius: 25px;
       }
-      .right{
+      .right-two{
       padding: 20px;
       text-align: center;
       }
     }
 
-    .three {
+    .three-bottom{
       background-color:#fbfbfbad;
-      border-radius: 25px;
       margin: 20px 500px 20px 500px;
       display: grid;
       grid-template-columns: 50% 50%;
-      .right{
+      .right-three{
       background-image: url("../assets/help.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      border-top-right-radius: 25px;
-      border-bottom-right-radius: 25px;
       }
-      .left{
+      .left-three{
       padding: 20px;
       }
     }
 
-    .four {
+    .four-bottom{
       background-color:#fbfbfbad;
-      border-radius: 25px;
       margin: 20px 500px 20px 500px;
       display: grid;
       grid-template-columns: 50% 50%;
-      .left{
+      .left-four{
       background-image: url("../assets/chat.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      border-top-left-radius: 25px;
-      border-bottom-left-radius: 25px;
       }
-      .right{
+      .right-four{
       padding: 20px;
       }
     }
