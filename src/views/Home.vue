@@ -44,7 +44,7 @@
 		background-image: url("../assets/overlay.png"), -ms-linear-gradient(45deg, #2c3e50 15%, #3498db 85%);
 		background-image: url("../assets/overlay.png"), linear-gradient(45deg, #2c3e50 15%, #3498db 85%);
     display: grid;
-    grid-template-rows: 100vh;
+    grid-template-rows: 100%;
     font-family: 'Quicksand', sans-serif;
   .content{
     display: grid;
