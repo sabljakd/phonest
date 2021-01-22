@@ -55,7 +55,7 @@
     }
     .links-grid{
         border-radius: 25px;
-        background: rgba(240, 230, 140, 0.274);
+        background:#005C90;
         background-repeat: repeat;
         padding: 1px 1px 1px 1px;
         font-family: 'Quicksand', sans-serif;
@@ -73,7 +73,7 @@
       display: grid;
       grid-template-columns: 50% 50%;
       border-radius: 25px;
-      background: rgba(240, 230, 140, 0.486);
+      background: #005C90;
     }
   }
 }
