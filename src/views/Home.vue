@@ -19,9 +19,13 @@
     <div class="intro-grid-top">
       <div class="intro-grid-top-top-left"></div>
       <div class="intro-grid-top-top-right"></div>
-      <div class="intro-grid-top-middle-left"></div>
+      <div class="intro-grid-top-middle-left">
+        <div class="line"></div>
+      </div>
       <div class="intro-grid-top-middle-right"></div>
-      <div class="intro-grid-top-bottom-left"></div>
+      <div class="intro-grid-top-bottom-left">
+        <div class="line"></div>
+      </div>
       <div class="intro-grid-top-bottom-right"></div>
     </div>
   </div>
@@ -99,11 +103,17 @@
       grid-template-rows: 33.33% 33.33% 33.33%;
       border-radius: 10px;
       background: #ffffff;
+      .line{
+        width:200%;
+        background: #272343;
+        height: 2px;
+      }
     }
   }
   .footer{
     display: grid;
     grid-template-rows: 50vh;
+    grid-template-columns: 50% 50%;
     margin: 30vh 20vh 0 20vh;
     background: #272343;
     border-top-left-radius: 10px;
