@@ -7,18 +7,25 @@
   <div class="content">
     <div class="logo-grid">
       <img src="../assets/logo.png" width="64" height="64">
+      <h1>pHonest</h1>
+      <p>Pronađi uređaj pomoću specifikacija u samo par klikova</p>
     </div>
     <div class="links-grid">
-      <router-link to="/">Početna</router-link>
+      <router-link to="/">Početna</router-link> 
       <router-link to="/phones">Uređaji</router-link>
       <router-link to="/about">O nama</router-link>  
       <router-link to="/help">Pomoć</router-link>
     </div>
-    <div class="intro-grid">
-      <div class="intro-grid-left"></div>
-      <div class="intro-grid-right"></div>
+    <div class="intro-grid-top">
+      <div class="intro-grid-top-top-left"></div>
+      <div class="intro-grid-top-top-right"></div>
+      <div class="intro-grid-top-middle-left"></div>
+      <div class="intro-grid-top-middle-right"></div>
+      <div class="intro-grid-top-bottom-left"></div>
+      <div class="intro-grid-top-bottom-right"></div>
     </div>
   </div>
+  <div class="footer"></div> 
 </div>
 </template>
 
@@ -44,37 +51,63 @@
 		background-image: url("../assets/overlay.png"), -ms-linear-gradient(45deg, #2c3e50 15%, #3498db 85%);
 		background-image: url("../assets/overlay.png"), linear-gradient(45deg, #2c3e50 15%, #3498db 85%);
     display: grid;
-    grid-template-rows: 100%;
+    grid-template-rows: 200vh;
     font-family: 'Quicksand', sans-serif;
   .content{
     display: grid;
-    grid-template-rows: 20vh 10vh 50vh;
+    grid-template-rows: 50vh 10vh 150vh;
     margin: 10vh 20vh 10vh 20vh;
     .logo-grid{
       margin: auto;
+      width: 100%;
+      text-align: center;
+      h1{
+        color:#ffffff;
+        font-size: 50px;
+      }
+      p{
+        color:#ffffff;
+        font-size: 25px;
+      }
     }
     .links-grid{
-        border-radius: 25px;
-        background:#005C90;
+        border-radius: 10px;
+        background:#ffffff;
         background-repeat: repeat;
         padding: 1px 1px 1px 1px;
         font-family: 'Quicksand', sans-serif;
         margin:auto;
+        width: 100%;
+        text-align: center;
       a{
         display: inline-block;
         text-align: center;
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: #272343;
         padding: 20px;
         font-size: 100%;
+        font-weight: 500;
+      }
+      a:hover{
+        color: #bae8e8;
+        border-radius: 10px;
       }
     }
-    .intro-grid{
+    .intro-grid-top{
       display: grid;
       grid-template-columns: 50% 50%;
-      border-radius: 25px;
-      background: #005C90;
+      grid-template-rows: 33.33% 33.33% 33.33%;
+      border-radius: 10px;
+      background: #ffffff;
     }
+  }
+  .footer{
+    display: grid;
+    grid-template-rows: 50vh;
+    margin: 30vh 20vh 0 20vh;
+    background: #272343;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 }
 
@@ -88,8 +121,10 @@
   font-family: 'Quicksand', sans-serif;
   .content{
     display: grid;
-    grid-template-rows: 10vh 10vh;
     margin: 5vh 10vh 50vh 10vh;
+  }
+  .footer{
+    margin: 30vh 10vh 0 10vh;
   }
 }
 }
@@ -104,13 +139,15 @@
   font-family: 'Quicksand', sans-serif;
   .content{
     display: grid;
-    grid-template-rows: 10vh 10vh;
     margin: 0.5vh 0.5vh 0.5vh 0.5vh;
     .links-grid{
       a{
         padding:10px;
       }
     }
+  }
+  .footer{
+    margin: 30vh 0.5vh 0 0.5vh;
   }
 }
 }
