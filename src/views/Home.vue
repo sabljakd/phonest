@@ -1,6 +1,6 @@
 <template>
-
 <div class="grid">
+  
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,23 +13,23 @@
     <div class="links-grid">
       <router-link to="/">Početna</router-link> 
       <router-link to="/phones">Uređaji</router-link>
-      <router-link to="/about">O nama</router-link>  
       <router-link to="/help">Pomoć</router-link>
     </div>
     <div class="intro-grid-top">
-      <div class="intro-grid-top-top-left"></div>
+      <div class="intro-grid-top-top-left">
+      </div>
       <div class="intro-grid-top-top-right"></div>
       <div class="intro-grid-top-middle-left">
-        <div class="line"></div>
       </div>
       <div class="intro-grid-top-middle-right"></div>
       <div class="intro-grid-top-bottom-left">
-        <div class="line"></div>
       </div>
       <div class="intro-grid-top-bottom-right"></div>
     </div>
   </div>
-  <div class="footer"></div> 
+  <div class="footer">
+    
+    </div> 
 </div>
 </template>
 
@@ -103,10 +103,22 @@
       grid-template-rows: 33.33% 33.33% 33.33%;
       border-radius: 10px;
       background: #ffffff;
-      .line{
-        width:200%;
-        background: #272343;
-        height: 2px;
+      .intro-grid-top-top-left{
+        background-image: url('../assets/help.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+      }
+      .intro-grid-top-middle-right{
+        background-image: url('../assets/info.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .intro-grid-top-bottom-left{
+        background-image: url('../assets/love.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
       }
     }
   }

@@ -13,7 +13,6 @@
     <div class="phones-links-grid">
       <router-link to="/">Početna</router-link> 
       <router-link to="/phones">Uređaji</router-link>
-      <router-link to="/about">O nama</router-link>  
       <router-link to="/help">Pomoć</router-link>
     </div>
     <div class="phones-intro-grid-top">
@@ -131,37 +130,59 @@
   .wrapper{
     width:892px;
   }
-  .grid{
+  .phones-grid{
   display: grid;
   font-family: 'Quicksand', sans-serif;
-  .content{
+  .phones-content{
     display: grid;
     margin: 5vh 10vh 50vh 10vh;
+    .phones-intro-grid-top{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+      border-radius: 10px;
+      background: #ffffff;
+      .phones{
+        margin:5px;
+        background:#e3f6f5;
+      }
+    }
   }
-  .footer{
+  .phones-footer{
     margin: 30vh 10vh 0 10vh;
   }
 }
 }
 
-// Uređaji 400px ili manji //
+// Uređaji 600px ili manji //
 @media only screen and (max-width: 600px){
   .wrapper{
     width:600px;
   }
-  .grid{
+  .phones-grid{
   display: grid;
   font-family: 'Quicksand', sans-serif;
-  .content{
+  .phones-content{
     display: grid;
     margin: 0.5vh 0.5vh 0.5vh 0.5vh;
-    .links-grid{
+    .phones-links-grid{
       a{
         padding:10px;
       }
     }
+    .phones-intro-grid-top{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+      border-radius: 10px;
+      background: #ffffff;
+      .phones{
+        margin:5px;
+        background:#e3f6f5;
+      }
+    }
   }
-  .footer{
+  .phones-footer{
     margin: 30vh 0.5vh 0 0.5vh;
   }
 }
