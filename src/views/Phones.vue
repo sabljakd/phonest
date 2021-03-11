@@ -16,27 +16,13 @@
       <router-link to="/help">Pomoć</router-link>
     </div>
     <div class="phones-intro-grid-top">
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
-      <div class="phones"></div>
+                              
     </div>
   </div>
   <div class="phones-footer"></div>
 </div>
 
-</template>
+</template>                        
 
 <script>
 

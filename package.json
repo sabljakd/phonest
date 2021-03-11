@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.13.8",
+    "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "core-js": "^3.9.1",
     "firebase": "^8.2.9",
